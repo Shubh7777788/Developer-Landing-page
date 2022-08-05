@@ -1,0 +1,314 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  /* background-color: black; */
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+  /*  1rem=10px */
+}
+
+body {
+  background-color: #f8f8fa;
+}
+/* header */
+header {
+  position: relative;
+  background-color: #4618fe;
+  height: 80vh;
+  margin-top: 2rem;
+}
+
+/* Navbar */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 1.2rem;
+  gap: 2rem;
+  color: #b9a8ff;
+  cursor: pointer;
+  padding-top: 2rem;
+}
+.nav-item-active {
+  border: 1px solid transparent;
+  border-radius: 1px;
+  background-color: #fff;
+  color: #4618fe;
+  padding: 0.5rem 1rem;
+}
+a {
+  top: 2rem;
+}
+
+/* logo */
+.logo {
+  margin-bottom: 10rem;
+}
+/* Image */
+.header-text img {
+  width: 5rem;
+}
+.header-image {
+  position: absolute;
+  top: 20%;
+  right: 0px;
+  bottom: 0px;
+}
+.header-text h2 {
+  font-size: 4rem;
+  color: #ffffff;
+  line-height: 1;
+}
+.header-text p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  line-height: 1;
+}
+
+/* After NAvbar */
+.companies {
+  display: flex;
+  gap: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+}
+.company-items {
+  text-decoration: none;
+  font-family: 'Righteous';
+  font-size: 2.8rem;
+  color: #000000;
+}
+/* Api sec */
+.api {
+  margin-bottom: 5rem;
+}
+.api-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+.cards {
+  display: flex;
+  gap: 4rem;
+}
+.card {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 22rem;
+  width: 20rem;
+}
+.card-active {
+  width: 20rem;
+  height: 22rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.card img {
+  width: 6rem;
+  height: 6rem;
+}
+.card h3 {
+  font-size: 2rem;
+}
+.card p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000;
+}
+.card:hover {
+  background-color: #fff;
+}
+
+/* Blog Sec */
+.blog-heading {
+  margin-bottom: 2rem;
+}
+.blog-heading h1 {
+  font-size: 4rem;
+}
+.blog-card {
+  display: flex;
+  gap: 2rem;
+  background-color: #fff;
+  position: relative;
+}
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  margin-bottom: 10rem;
+}
+.blog-content {
+  /* display: flex; */
+  flex-direction: column;
+  width: 30rem;
+}
+.blog-content h6 {
+  font-size: 1.2rem;
+  color: #8363fe;
+}
+.blog-content h3 {
+  font-size: 2rem;
+  color: #000000;
+}
+.blog-content small {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+/* Blog bottomm */
+.blog-bottom {
+  position: absolute;
+  bottom: -10%;
+  left: 60%;
+
+  /* border-radius: 100%; */
+}
+.blog-bottom img {
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+}
+
+.blog-author {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0px;
+  left: 62%;
+  width: 10rem;
+}
+
+/* Faq sec */
+.faq-section {
+  display: flex;
+  background-color: #e9edff;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.faq-content {
+  margin-left: 5rem;
+}
+
+.faq-content h2 {
+  font-size: 3.5rem;
+}
+.faq-content h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+.faq-content .faq-head {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.faq-content button {
+  text-align: center;
+  padding: 8px 10px;
+  width: 11rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  border: transparent;
+  background-color: #5a31fc;
+}
+
+.faq-image img {
+  height: 100%;
+  /* width: ;*/
+}
+
+.download-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.download-content h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.download-content span {
+  font-weight: 400;
+}
+.download-email form {
+  display: flex;
+}
+.download-email input {
+  width: 45rem;
+  padding: 0 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  background-color: #e9edff;
+  border: transparent;
+}
+.download-email::placeholder {
+  color: #000000;
+}
+.download-email button {
+  display: block;
+  height: 5rem;
+  border-radius: 5rem;
+  background-color: #5a31fc;
+  width: 14rem;
+  border: inherit;
+  color: #fff;
+  position: absolute;
+  right: 5%;
+}
+
+/* Footer */
+footer {
+  background-color: #4618fe;
+  margin-bottom: 5rem;
+  height: 25rem;
+}
+.footer-left {
+  margin-top: 8rem;
+}
+.footer-right {
+  /* gap: 5rem; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  align-items: center;
+}
+.footer-right-logo {
+  display: flex;
+  gap: 2rem;
+  margin-right: -80px;
+  margin-bottom: 2rem;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+.list {
+  display: flex;
+  gap: 3rem;
+}
+.list-items {
+  font-size: 1.3rem;
+  text-decoration: none;
+  list-style: none;
+}
+.list-items::before {
+  content: '|';
+}
+
+.logos-list {
+  display: flex;
+  gap: 3rem;
+}
